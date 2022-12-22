@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+body, h1, h2, h3, h4, h5, h6, p , nav , header , main , footer , section {
+    margin: 0px;
+    
+    }
+
+
+body{
+    /* min-width: 600px;
+    max-width: 1200px; */
+}
+
+
+header{
+    border-bottom: 1px solid;
+    text-align: center;
+    color: violet;
+
+}
+
+main{
+    background-color: beige;
+}
+
+
+.primera_fila{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    margin: 2% auto;
+    /* width: 90%; */
+}
+
+.primera_fila li{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 19%;
+}
+
+.Motocicleta , figure{
+    border: 1px solid;
+    text-align: center;
+}
+
+
+.segunda_fila{
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    padding-top: 0%;
+    margin: 2% auto;
+    align-items: stretch;
+}
+
+
+footer{
+    border-top: 2px solid black;
+}
+
+footer address{
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+address section{
+    margin: 1% auto;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nombre{
+    text-align: left;
+}
+
+#copy{
+    text-align: center;
+}
+
+#rrss{
+    text-align: right;
+}
+
+
+
+
